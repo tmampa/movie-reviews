@@ -1,7 +1,7 @@
 <div class = 'row'>
 <div class = 'col-9 px-0'>
   <img src="<%= default_cover(@user.cover) %>" alt="user-cover", width=100%, height=400px>
-  <h3 class='text-color-blue mx-4 mt-5'><%= @user.username %> predictions</h3>
+  <h3 class='text-color-blue mx-4 mt-5'><%= @user.username %> ratings</h3>
   <div class='d-flex mx-4 mt-5 flex-column'>
     <div>
     <% @my_tweets.each do |tweet| %>
@@ -58,7 +58,7 @@
     </span>
     <span class='text-white pt-3'>
         <p class='h4 text-color-light'><%= @user.tweets.count %></p>
-        <h6 class='text-color-grey'>Predictions</h6>
+        <h6 class='text-color-grey'>Ratings</h6>
     </span>
 </div>
 <% end %>
