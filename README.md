@@ -1,6 +1,6 @@
-# Football match predictions with Ruby on Rails
+# Football match ratings with Ruby on Rails
 
-> This is a Football scores predition page where you can create account and post your predictions annonimously
+> This is a movie and series ratings page where you can create account and post your ratings annonimously
 
 ## Built With
 
@@ -17,7 +17,7 @@ Rails: 6.1.3
 
 ### Setup and Local copy
 
-Inside you terminal rub $git clone https://github.com/igorkol91/footbal-page/tree/test_branch
+Inside you terminal rub $git clone https://github.com/tmampa/movie-reviews.git
 Run $cd footbal-page
 Run $ code .
 
@@ -67,11 +67,11 @@ Open `http://localhost:3000/` in your browser.
 
 ## Authors
 
-👤 **Igor Koloski**
+👤 **Tshephang Mampa**
 
-- GitHub: [@igorkol91](https://github.com/igorkol91)
-- Twitter: [@Destro49536502](https://twitter.com/Destro49536502)
-- LinkedIn: [Koloski Igor](https://www.linkedin.com/in/igor-koloski-a754aa208/)
+- GitHub: [@tmampa](https://github.com/tmampa)
+- Twitter: [@tshephangm_](https://twitter.com/tshephangm_)
+- LinkedIn: [Tshephang Mampa](https://www.linkedin.com/tshephangmampa)
 
 ## 🤝 Contributing
 
