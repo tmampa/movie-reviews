@@ -1,0 +1,24 @@
+<% if logged_in? %>
+
+<div class='d-flex text-center justify-content-around pb-3'>
+    <span class='text-white pt-3'>
+        <p class='h4 text-color-light'> <%= current_user.followers.count %></p>
+        <h6 class='text-color-grey'>Followers</h6>
+    </span>
+    <span class='text-white pt-3'>
+        <p class='h4 text-color-light'><%= current_user.followeds.count %></p>
+        <h6 class='text-color-grey'>Following</h6>
+    </span>
+</div>
+<div>
+  <p class="nav-item py-3 h4 left-hover">
+    <%= link_to 'Home', tweets_path, class: 'text-decoration-none mx-4 text-color-light' %> 
+  </p>
+</div>
+<div>
+  <p class="nav-item py-3 h4 left-hover">
+    <%= link_to 'MyProfile', user_path(current_user), class: 'text-decoration-none mx-4 text-color-light' %> 
+  </p>
+</div>
+
+<% end %>
