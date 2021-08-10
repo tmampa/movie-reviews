@@ -17,24 +17,24 @@ Rails: 6.1.3
 
 ### Setup and Local copy
 
-Inside you terminal rub $git clone https://github.com/tmampa/movie-reviews.git
-Run $cd footbal-page
-Run $ code .
+- Inside you terminal run $git clone https://github.com/tmampa/movie-reviews.git
+- Run $cd footbal-page
+- Run $ code .
 
-Instal gems with:
+- Instal gems with:
 
 ```
     bundle install
 ```
 
-Setup database with:
+- Setup database with:
 
 ```
    rails db:create
    rails db:migrate
 ```
 
-Run tests with
+- Run tests with
 
 ```
     rails g rspec:install
@@ -43,7 +43,7 @@ Run tests with
 
 ### Github Actions
 
-To make sure the linters' checks using Github Actions work properly, you should follow the next steps:
+To make sure the linter checks using Github Actions work properly, you should follow the next steps:
 
 1. On your recently forked repo, enable the GitHub Actions in the Actions tab.
 2. Create the `feature/branch` and push.
