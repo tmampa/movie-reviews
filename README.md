@@ -1,4 +1,4 @@
-# Football match ratings with Ruby on Rails
+# Movie ratings with Ruby on Rails
 
 > This is a movie and series ratings page where you can create account and post your ratings annonimously
 
