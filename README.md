@@ -1,6 +1,6 @@
 # Movie ratings with Ruby on Rails
 
-> This is a movie and series ratings page where you can create account and post your ratings annonimously
+> This is a movie and series ratings web application where you can create an account and post your ratings annonimously.
 
 ## Built With
 
@@ -8,7 +8,7 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
@@ -17,7 +17,7 @@ Rails: 6.1.3
 
 ### Setup and Local copy
 
-- Inside you terminal run $git clone https://github.com/tmampa/movie-reviews.git
+- Inside your terminal run $git clone https://github.com/tmampa/movie-reviews.git
 - Run $cd footbal-page
 - Run $ code .
 
