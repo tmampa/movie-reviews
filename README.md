@@ -1,24 +1,83 @@
-# README
+# Movie ratings with Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> This is a movie and series ratings web application where you can create an account and post your ratings annonimously.
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby on Rails v6.1.3
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To get a local copy up and running follow these simple steps.
 
-* Database creation
+### Prerequisites
 
-* Database initialization
+Ruby: 2.7.2
+Rails: 6.1.3
 
-* How to run the test suite
+### Setup and Local copy
 
-* Services (job queues, cache servers, search engines, etc.)
+- Inside your terminal run $git clone https://github.com/tmampa/movie-reviews.git
+- Run $cd footbal-page
+- Run $ code .
 
-* Deployment instructions
+- Instal gems with:
 
-* ...
+```
+    bundle install
+```
+
+- Setup database with:
+
+```
+   rails db:create
+   rails db:migrate
+```
+
+- Run tests with
+
+```
+    rails g rspec:install
+    rspec
+```
+
+### Github Actions
+
+To make sure the linter checks using Github Actions work properly, you should follow the next steps:
+
+1. On your recently forked repo, enable the GitHub Actions in the Actions tab.
+2. Create the `feature/branch` and push.
+3. Start working on your milestone as usual.
+4. Open a PR from the `feature/branch` when your work is done.
+
+
+### Usage
+
+Start server with:
+
+```
+    rails server
+```
+
+Open `http://localhost:3000/` in your browser.
+
+### Deployment
+
+[Live Link](https://calm-wave-07003.herokuapp.com)
+
+## Authors
+
+👤 **Tshephang Mampa**
+
+- GitHub: [@tmampa](https://github.com/tmampa)
+- Twitter: [@tshephangm_](https://twitter.com/tshephangm_)
+- LinkedIn: [Tshephang Mampa](https://www.linkedin.com/tshephangmampa)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
